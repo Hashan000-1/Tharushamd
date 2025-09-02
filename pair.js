@@ -75,16 +75,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "THARUSHA-MD=" + string_session;
+                        let md = "HASHAN-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*👋𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀-𝐌𝐃 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝...*\n\n*🅳🅾🅽'🆃 🆂🅷🅰🆁🅴 🆃🅷🅸🆂 🅲🅾🅳🅴 🆆🅸🆃🅷 🅰🅽🆈🅾🅽🅴!*\n\n*ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ - ᴍʀ.ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45\n\n🔰 *🅶🅸🆃🅷🆄🅱 🆁🅴🅿🅾 -*https://github.com/Tharushaaaaa777/THARUSHA-XMD\n\n> *𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳*`; 
+                        let desc = `*👋HASHAN-MD 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝...*\n\n*POWERED BY HASHAN-MD!*\n\n*DONT SHERE YOURE SESSION ANYONE - CREATED BY MR HASHIYA.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
-thumbnailUrl: "https://i.ibb.co/5gQ13m8p/0ef38c1555c87f01.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+title: "HASHAN-MD",
+thumbnailUrl: "https://i.ibb.co/Kjq97rcG/3575.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -98,9 +98,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
-thumbnailUrl: "https://i.ibb.co/5gQ13m8p/0ef38c1555c87f01.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+title: "HASHAN-MD",
+thumbnailUrl: "https://i.ibb.co/Kjq97rcG/3575.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
